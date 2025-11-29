@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %}Child Page{% endblock %}
+
+{% block content %}
+<div class="margin shadow" >
+    <h2>This is content from the Child template</h2>
+    <p>It overrides the base content block.</p>
+    </div>
+{% endblock %}
+
+{% block footer %}
+    <h2>This is content from the Child template</h2>
+    <p>It overrides the footer content block.</p>
+{% endblock %}
